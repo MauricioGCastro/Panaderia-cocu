@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaderia</title>
+    <meta name="author" content="Mauricio G. Castro">
+    <meta name="description" content="pagina de panaderia con bootstrap">
+    <meta name="keywords" content="bootstrap, html, css, rollingcode, practicas, curso">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/aa27cc17ac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/cocu_logo-450.png" alt="logo-panaderia" width="100px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="historia.html" tabindex="-1" aria-disabled="true">Historia</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="productos.html" tabindex="-1" aria-disabled="true">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+<!-- BREADCRUMB -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">
+                <a href="productos.html"> Productos</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Torta de chocolate</li>
+            </ol>
+          </nav>
+
+    </header>
+<section class="container">
+    <article class="row">
+        <div class="col-sm-12 col-lg-7">
+            <img src="img/productos/Torta-de-chocolate_00098_portfolio.jpg" alt="tarta de choco">
+        </div>
+        <div class="col-sm-12 col-lg-5">
+            <h1 class="display-4 text-center">Torta de Chocolate</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aspernatur error et amet, mollitia maiores voluptates numquam tempore iste maxime.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eaque provident nihil quidem officia distinctio dolorum voluptas voluptatibus officiis quasi accusamus esse libero, reiciendis beatae sint ea saepe, nobis fugiat? Ratione quis ad ea omnis impedit delectus accusantium modi voluptatum!</p>
+        </div>
+    </article>
+
+</section>
+
+    <footer class="bg-dark text-light py-5">
+        <article class="container">
+            <div class="row">
+                <div class="col-sm12- col-md-4 text-center">
+                    <img src="img/cocu_logo-450.png" alt="logo-panaderia1" width="100px">
+                </div>
+                <div class="col-sm12- col-md-4">
+                    <p><strong> Encontranos en:</strong></p>
+                    <iframe class="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1049265915035!2d-65.20936748437776!3d-26.836614796499752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1587489999354!5m2!1ses-419!2sar"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-sm12- col-md-4">
+                    <p>
+                        <strong">Horarios de Atención</strong>
+                    </p>
+                    <ul>
+                        <li>Lunes a Viernes: 09hs a 20hs</li>
+                        <li>Sábados, Domingos y Feriados: 10hs a 20hs</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </footer>
+
+
+    <!-- LIBRERIAS DE BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
